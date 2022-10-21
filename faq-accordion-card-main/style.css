@@ -1,0 +1,31 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: black;
+  }
+  .card {
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+    grid-area: 2 / 2 / 5 / 5;
+    
+  }
+  details {
+    border: 0.5px solid #ffffff;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+  details > summary{
+    list-style: url(./images/icon-arrow-down.svg);
+  }
