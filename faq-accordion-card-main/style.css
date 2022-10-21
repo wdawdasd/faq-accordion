@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -11,7 +12,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    background-color: black;
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
   }
   .card {
     height: 500px;
@@ -25,7 +26,10 @@
     border-radius: 4px;
     padding: .5em .5em 0;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+  
   details > summary{
     list-style: url(./images/icon-arrow-down.svg);
+  }
+  summary {
+    font-family: 'Kumbh Sans', sans-serif;
   }
