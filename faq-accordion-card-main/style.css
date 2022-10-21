@@ -49,7 +49,7 @@
     width: 600px;
     margin-right: 0px;
     margin-top: 150px;
-    
+    z-index: 2;
   }
   
   #bold {
@@ -65,4 +65,17 @@
   h1 {
     padding-bottom: 1rem;
     margin-left: 1rem;
+  }
+
+  .card #woman {
+    position: absolute;
+    top: 24rem;
+    left: 15rem;
+    z-index: 1;
+  }
+  .card #woman2 {
+    position: absolute;
+    top: 31rem;
+    left: 15rem;
+    z-index: 100;
   }
