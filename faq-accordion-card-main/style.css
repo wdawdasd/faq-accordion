@@ -13,23 +13,38 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans', sans-serif;
   }
   .card {
     height: 500px;
-    width: 500px;
+    width: 100%;
     background-color: #ffffff;
     grid-area: 2 / 2 / 5 / 5;
+    border-radius: 20px;
     
   }
-  details {
-    border: 0.5px solid #ffffff;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-  }
+  
   
   details > summary{
-    list-style: url(./images/icon-arrow-down.svg);
+    list-style: none;
+    
   }
-  summary {
+  summary, details {
     font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  span {
+    padding-right: 2rem;
+  }
+  .accordion1 {
+    margin-left: 300px;
+    height: 100px;
+    width: 400px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+  .faq {
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 0px;
   }
